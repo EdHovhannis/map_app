@@ -1,0 +1,7 @@
+.tempstyle {
+  color: var(--default-grey);
+  font-family: var(--bold);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}

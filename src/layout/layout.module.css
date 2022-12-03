@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 64px auto;
+  grid-template-areas:
+    "_navbar"
+    "_content";
+  height: 100%;
+}
+
+.navbar {
+  grid-area: _navbar;
+}
+.content {
+  grid-area: _content;
+}

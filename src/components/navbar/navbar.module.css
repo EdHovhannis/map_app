@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  background: var(--default-blue);
+  font-family: var(--regular);
+  font-size: 1rem;
+}
+.navlinks {
+  cursor: pointer;
+  opacity: 0.8;
+  color: var(--default-white);
+}
+.navlinks:hover {
+  opacity: 1;
+}
+.navlinks.activeLink {
+  opacity: 1;
+}
+.navlinks:last-child {
+  margin-right: 2rem;
+}

@@ -1,0 +1,33 @@
+// $wrapper: ".uavp-boardm";
+
+// #{$wrapper} {
+//   &-table {
+//     width: 100%;
+//     list-style: none;
+//     &__rows {
+//       display: flex;
+//     }
+//     &__cols {
+//       padding: 14px 0;
+//       white-space: nowrap;
+//     }
+//     &__cols-description {
+//       width: 38%;
+//     }
+//     &__cols-date {
+//       width: 34%;
+//     }
+//     &__cols-vote {
+//       width: 18%;
+//     }
+//     &__cols-total {
+//       width: 5%;
+//     }
+//     &-thead {
+//       border-bottom: 1px solid #dddddd;
+//     }
+//     &-tbody {
+//       padding-top: 16px;
+//     }
+//   }
+// }
